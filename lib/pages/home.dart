@@ -38,7 +38,7 @@ class _WisdomState extends State<Wisdom> with SingleTickerProviderStateMixin {
                 ),
                 
                 child: Padding(
-                  padding: EdgeInsets.all(20), 
+                  padding: const EdgeInsets.all(20), 
                   child: Center(
                     child: Text(
                       quotes[_index % quotes.length],
